@@ -1,0 +1,129 @@
+<!--Author: Austin Bond || Images courtesy of pexels.com-->
+<!DOCTYPE html>
+<html lang="en">
+<script src="./fadeIn.js"></script>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/styles.css">
+<title>Home Page</title>
+<style>
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 30px; 
+  max-width: 75vw;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 30px;
+  float: left;
+  width: 49.99999%;
+}
+
+<!--Code for fixing image display. -->
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>
+    Jane Doe: Ocean Photographer
+  </h2>
+</div>
+
+<!--Code for horizontal navigation bar. Class attribute varies based on selected webpage-->
+<ul class="topnav">  
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="gallery.html">Gallery</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="contact.html">Contact</a></li>  
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<div id="pic-fade" style="opacity: 0;">
+
+<div class="responsive">
+  <div class="gallery">
+  
+      <img src="images/jellyfish.jpg" alt="Jellyfish" width="1280" height="720">
+  
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="images/seal.jpg" alt="seal" width="1280" height="720">
+   
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  
+      <img src="images/whaleshark.jpg" alt="Whale Shark" width="1280" height="720">
+   
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  
+      <img src="images/greenclown.jpg" alt="Clown fish green" width="1280" height="720">
+   
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+  
+      <img src="images/shark.jpg" alt="Shark" width="1280" height="720">
+   
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  
+      <img src="images/purpleclown.jpg" alt="Clown fish purple" width="1280" height="720">
+   
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="images/dolphins.jpg" alt="dolphins" width="1280" height="720">
+ 
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="images/stingray.jpg" alt="stingray" width="1280" height="720">
+ 
+  </div>
+</div>
+
+</div>
+
+<div class="clearfix"></div>
+
+</body>
+</html>

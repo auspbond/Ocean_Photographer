@@ -1,0 +1,72 @@
+body {
+  background-color: Snow;
+  width: screen.width;
+  padding: 25px;
+  margin: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+  
+ul.topnav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #483D8B;
+  border-radius: 15px;
+  float: center;
+  text-align: center;
+}
+
+ul.topnav li {
+	float: none;
+	display: inline-block;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {
+	background-color: #5F9EA0;
+	color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+<!--Media Query for navigation bar. Shrinks bar and stacks links if low screen size is detected-->
+@media screen and (max-width: 900px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  font-size: 72px;
+}
+h2 {
+  color: navy;
+  text-align: center;
+  font-size: 36px;
+}
+h3 {
+  color: navy;	
+  font-size: 32px;
+  text-align: center;
+  padding: 12px;
+}
+h4 {  
+  text-align: center;
+}
+
+

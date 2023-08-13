@@ -1,0 +1,68 @@
+<!--Author: Austin Bond || Images courtesy of pexels.com-->
+<!DOCTYPE html>
+<html lang="en">
+<script src="./fadeIn.js"></script>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/styles.css">
+<title>Home Page</title>
+<style>
+div {
+  padding: 10px;
+}
+img {
+  width: auto;
+  height: 50%;
+  max-width: 50vw;
+  max-height: 50vw;
+  float: right;
+  padding: 20px;
+  border-radius: 30px;
+  }
+p {
+  padding: 20px;
+  font-size: 36px;
+  font-family: serif;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+ <h2 class = "header">
+    Jane Doe: Ocean Photographer
+ </h2>
+
+
+<!--Code for horizontal navigation bar. Class attribute varies based on selected webpage-->
+<ul class="topnav">  
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="contact.html">Contact</a></li> 
+  <li><a class="active" href="about.html" >About</a></li>
+</ul>
+
+<!--Special div class for right-sided image display-->
+<div class="clearfix">
+  <img src="images/diver.jpg" alt="Diver" id="pic-fade" style="opacity: 0;">
+  <p> Hello! My name is Jane Doe. I am a passionate scuba diver, ocean photographer, marine biologist, and artist. 
+		Photography wasn't my first calling. 
+		I am an educated marine biologist and certified scuba diver instructor. 
+	    To say the ocean is my calling would be an understatement of epic proportions. 
+	    My photography proves that.
+		<br /> <br /> <br />
+		Affiliated Institutions:
+		<br /> <br />
+		<a href="http://divesydney.com.au"> Dive Sydney</a>
+		<br /> <br />
+		<a href="https://www.unimelb.edu.au/"> University of Melbourne</a>
+		</p>
+</div>
+
+</body>
+</html>
